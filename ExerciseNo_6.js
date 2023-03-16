@@ -3,7 +3,7 @@ let btn2=document.querySelector("#btn2")
 let btn3=document.querySelector("#btn3")
 let btn4=document.querySelector("#btn4")
 
-let iA=1;
+let iA=(localStorage.length)+1;
 let a=()=>{
     let container=document.querySelector(".container");
     container.innerHTML="<br>"
