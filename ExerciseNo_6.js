@@ -17,7 +17,7 @@ let a=()=>{
             return
         }
        
-    
+      c();
 
    
 }
@@ -57,6 +57,7 @@ function bc(a){
         localStorageNo++;
         arrayNo++;
     }
+    c();
 }
 
 let b=()=>{
@@ -162,6 +163,7 @@ let d=()=>{
     else{
         return;
     }
+    c();
 }
 btn1.addEventListener('click',a)
 btn2.addEventListener('click',b)
